@@ -24,7 +24,6 @@ def caesar_cipher(string, number)
         upper_index = upper_index - 26
       end
       cryptic_string.push(alphabet[1][upper_index])
-      puts -(alphabet[1].index("#{char.to_s}"))
     else
       cryptic_string.push(char) 
     end  
@@ -33,5 +32,4 @@ def caesar_cipher(string, number)
 end
 
 puts caesar_cipher("What a string!", 5)
-puts "what a string".to_i
 
